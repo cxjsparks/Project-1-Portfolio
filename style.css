@@ -1,7 +1,7 @@
 .name {
     text-align: center;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: fantasy, serif;
     font-size: 50px;
 }
 
@@ -24,16 +24,23 @@
 .nav-items {
     display: inline;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: fantasy, serif;
 }
+
 
 .image {
     padding: 20px 0 20px 0;
     display: flex;
-    max-height: 200px;
-    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    object-fit: contain;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
 
 /* .mountains {
     display: flex;
