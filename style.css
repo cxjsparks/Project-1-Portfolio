@@ -1,7 +1,38 @@
+.name {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
 
+/* #chloe, #jager {
+    color: blue;
+    font-family: cursive, sans-serif;
+} */
+
+.nav-bar {
+    height: 50px;
+    background-color: burlywood;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-items {
+    display: inline;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+/* .mountains {
+    display: flex;
+} */
 
 .parent-container {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .flex-container-outer {
     display: flex;
@@ -14,10 +45,9 @@
     flex-direction: column;
     flex-wrap: flex;
     justify-content: center;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     /* height: 300px; */
     width: 100%;
-    border-radius: 15%;
     background-image:image()
 }
 
@@ -27,7 +57,7 @@
 
 }
 
-.about {
+/* .about {
     background-color: cornflowerblue;
 
 }
@@ -36,4 +66,4 @@
 }
 .contact {
     background-color: aqua;
-}
+} */
