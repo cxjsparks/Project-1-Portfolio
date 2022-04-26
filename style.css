@@ -16,9 +16,11 @@
 }
 
 .nav-menu {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: absolute; */
     list-style: none;
+    /* margin: none; */
 }
 
 .nav-items {
@@ -49,9 +51,12 @@
 }
 
 .centered {
+    font-family: fantasy, serif;
     position: absolute;
-    top: 50%;
-    bottom: 50%;
+    text-align: center;
+    top: 25%;
+    bottom: 75%;
+    font-size: 25px;
 }
 
 .parent-container {
