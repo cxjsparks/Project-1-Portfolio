@@ -1,3 +1,28 @@
+.nav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: fantasy, serif;
+}
+.nav a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.nav .icon {
+    display: none;
+}
+
+
 .name {
     text-align: center;
     color: black;
@@ -5,31 +30,32 @@
     font-size: 50px;
 }
 
-/* #chloe, #jager {
-    color: blue;
-    font-family: cursive, sans-serif;
-} */
 
-.nav-bar {
+/* .nav-bar {
     height: 50px;
     background-color: burlywood;
 }
 
 .nav-menu {
     /* display: flex; */
-    text-align: center;
+    /* text-align: center; */
     /* justify-content: absolute; */
-    list-style: none;
+    /* list-style: none; */
     /* margin: none; */
-}
+/* } */
 
-.nav-items {
+/* .nav-items {
     display: inline;
     justify-content: space-around;
+    margin: 0 20px 0 20px;
     font-size: 30px;
     font-family: fantasy, serif;
-}
+} */
 
+/* .nav ul { */
+    /* padding-left: 0; */
+    /* padding-inline-start: 0;
+} */ 
 
 .image {
     padding: 20px 0 20px 0;
@@ -45,42 +71,47 @@
 }
 
 .image-container {
+    display: flex;
+    justify-content: center;
     position: relative;
-    text-align: center;
-    color: black;
+    /* text-align: center; */
 }
 
-.centered {
+.welcome {
+    display: flex;
     font-family: fantasy, serif;
     position: absolute;
-    text-align: center;
+    justify-content: center;
     top: 25%;
     bottom: 75%;
+    /* left: 0;
+    left: 50%;
+    transform: translateX (-50%); */
     font-size: 25px;
 }
 
-.parent-container {
+/* .parent-container {
     font-family: Arial, Helvetica, sans-serif;
 }
 .flex-container-outer {
     display: flex;
     /* flex-direction: row; */
-    flex-wrap: wrap;
-}
+    /* flex-wrap: wrap; */
+/* } */
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-direction: column;
     flex-wrap: flex;
     justify-content: center;
     /* height: 300px; */
-    width: 100%;
+    /* width: 100%;
     background-image:image()
-}
+/* } */ 
 
-.about-text, .project-text, .contact-text {
+/* .about-text, .project-text, .contact-text {
     height: 100%;
     text-align: center;
 
-}
+} */
 

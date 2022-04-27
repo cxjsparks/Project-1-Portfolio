@@ -10,19 +10,35 @@
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="app.js" defer></script>
 
 </head>
 <body>
 
   <header>
+    <!-------start hamburger menu-------->
 
+    <div class="nav" id="myNav">
+      <a href="#contact" class="navlink1">CONTACT</a>
+      <a href="#projects" class="navlink2">PROJECTS</a>
+    <a href="#about" class="navlink3">ABOUT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+     <!-------end hamburger menu-------->
+
+    
     <div>
       <h1 class="name">Chloë Jager</h1>
       <!-- <h1 class="name"><span id="chloe">Chloe </span><span id="jager">Jager</span></h1> -->
     </div>
 
-    <div>
+     <!-------start nav bar options-------->
+
+    <!-- <div>
       <nav class="nav-bar">
         <ul class="nav-menu">
           <li class="nav-items">
@@ -32,25 +48,30 @@
           </li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     
+    <!-------end nav bar options-------->
     
+
+    <!-------start welcome-------->
+
     <div class="image-container">
-        <div class="image">
-         <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80" alt="nature" class="responsive">
-         <div class="centered">"Welcome! I'm glad you stopped by. I'm a front-end developer who enjoyed making things easy, and fun, for users."</div>
-        </div>
+     <div class="image">
+        <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80" alt="nature" class="responsive">
+     <div class="welcome">"Welcome! I'm glad you stopped by. I'm a front-end developer who enjoyed making things easy, and fun, for users."</div>
+        <!-- </div> -->
     </div>
+    <!-------end welcome-------->
 
 
-  <!-- start parent-container -->
+  <!-- start parent-container
   <div class="parent-container">
 
-    <!-- start flex-container-outer -->
+    start flex-container-outer
     <div class="flex-container-outer">
   
-      <!-- start flex-container -->
-      <div class="flex-container">
+      <start flex-container -->
+      <!-- <div class="flex-container"> -->
 
   
         <!-- start about -->
@@ -72,17 +93,17 @@
         </div> -->
         <!-- end contact -->
   
-      </div>
+      <!-- </div> -->
       <!-- end flex-container -->
   
     <!-- start flex-container-2 -->
     <!-- <div class ="flex-container-2"></div> -->
     <!-- end flex-container-2 -->
   
-  </div>
+  <!-- </div> -->
   <!-- end flex-container-outer -->
   
-  </div>
+  <!-- </div> -->
   <!-- end parent-container -->
 
 </header>
