@@ -6,11 +6,11 @@
 .nav a {
     float: right;
     display: block;
-    color: red;
-    text-align: center;
+    color: lightblue;
+    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     font-family: fantasy, serif;
 }
 .nav a:hover {
