@@ -1,11 +1,11 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 578px) {
     .nav a {display: none;}
     .nav a.icon {
       float: right;
       display: block;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 578px) {
     .nav.responsive {position: relative;}
     .nav.responsive a.icon {
       position: absolute;
@@ -22,7 +22,7 @@
 
 .nav {
     background-color:burlywood;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .nav a {
@@ -60,10 +60,10 @@
     object-fit: contain; */
 }
 
-.responsive {
+/* .responsive {
     width: 100%;
     height: auto;
-}
+} */
 
 .image-container {
     display: flex;
@@ -76,15 +76,16 @@
      background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80");
      padding: 20px;
      min-height: 500px;
-     background-repeat: no-repeat
+     /* background-repeat: no-repeat */
  } 
  
  .welcome {
     text-align: center;
-    font-size: 35px;
+    font-size: 75;
     font-family: fantasy, serif;
-    margin: 25px 75px 25px 75px;
+    margin: 100px 75px 25px 75px;
  }
+
 
 /* .welcome {
     display: flex;
@@ -102,10 +103,27 @@
 h1 {
     text-align: center;
     font-family: fantasy, serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 p {
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+}
+
+/* @media screen and (max-width: 300px) {
+    h1 {
+      font-size: 7em;
+    }
+} 
+@media screen and (max-width: 300px) {
+    p {
+      font-size: 7em;
+    }
+}  */
+
+h2 {
     text-align: center;
     font-family: fantasy, serif;
     font-size: 25px;
