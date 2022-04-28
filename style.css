@@ -1,10 +1,13 @@
-@media screen and (max-width: 578px) {
-    .nav a {display: none;}
+ 
+ 
+ @media screen and (max-width: 578px) {
+    .nav a:not(:first-child) {display: none;}
     .nav a.icon {
       float: right;
       display: block;
     }
   }
+  
   @media screen and (max-width: 578px) {
     .nav.responsive {position: relative;}
     .nav.responsive a.icon {
@@ -19,8 +22,10 @@
     }
   }
 
-
 .nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color:burlywood;
     overflow: hidden;
 }
@@ -81,7 +86,7 @@
  
  .welcome {
     text-align: center;
-    font-size: 75;
+    font-size: 100;
     font-family: fantasy, serif;
     margin: 100px 75px 25px 75px;
  }
@@ -127,4 +132,20 @@ h2 {
     text-align: center;
     font-family: fantasy, serif;
     font-size: 25px;
+}
+
+.htmlLogo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jsLogo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
