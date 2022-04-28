@@ -11,7 +11,7 @@
   @media screen and (max-width: 578px) {
     .nav.responsive {position: relative;}
     .nav.responsive a.icon {
-      position: absolute;
+      position: right;
       right: 0;
       top: 0;
     }
@@ -37,7 +37,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
-    font-family: fantasy, serif;
+    font-family: fantasy, sans-serif;
 }
 .nav a:hover {
     background-color: brown;
@@ -52,7 +52,7 @@
 .name {
     text-align: center;
     color: black;
-    font-family: fantasy, serif;
+    font-family: fantasy, sans-serif;
     font-size: 50px;
 }
 
@@ -87,7 +87,7 @@
  .welcome {
     text-align: center;
     font-size: 100;
-    font-family: fantasy, serif;
+    font-family: Georgia, sans-serif;
     margin: 100px 75px 25px 75px;
  }
 
@@ -107,13 +107,13 @@
 
 h1 {
     text-align: center;
-    font-family: fantasy, serif;
+    font-family: fantasy, sans-serif;
     font-size: 25px;
 }
 
 p {
     text-align: center;
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
     font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ p {
 
 h2 {
     text-align: center;
-    font-family: fantasy, serif;
+    font-family: fantasy, sans-serif;
     font-size: 25px;
 }
 
