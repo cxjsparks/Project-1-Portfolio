@@ -80,13 +80,13 @@
 .image-container {
      background-image: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80");
      padding: 20px;
-     min-height: 500px;
+     min-height: 300px;
      /* background-repeat: no-repeat */
  } 
  
  .welcome {
     text-align: center;
-    font-size: 100;
+    font-size: xx-large;
     font-family: Georgia, sans-serif;
     margin: 100px 75px 25px 75px;
  }
@@ -107,13 +107,13 @@
 
 h1 {
     text-align: center;
-    font-family: fantasy, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     font-size: 25px;
 }
 
 p {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
@@ -130,22 +130,6 @@ p {
 
 h2 {
     text-align: center;
-    font-family: fantasy, sans-serif;
-    font-size: 25px;
-}
-
-.htmlLogo {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.jsLogo {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
