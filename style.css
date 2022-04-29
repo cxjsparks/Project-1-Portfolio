@@ -151,3 +151,9 @@ h2 {
     max-width: 50px;
     max-height: 50px;
 }
+
+.attribute {
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
