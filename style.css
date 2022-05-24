@@ -131,9 +131,10 @@ p.pinwheel {
 }
 
 a {
+    display: flex;
     text-align: center;
 }
-a.MCU {
+a.mcu {
     text-align: center;
     font-size: 150px;
 }
