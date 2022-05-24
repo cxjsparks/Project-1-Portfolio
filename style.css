@@ -129,6 +129,14 @@ p.strong {
 p.pinwheel {
     font-size: 150px;
 }
+
+a {
+    text-align: center;
+}
+a.MCU {
+    text-align: center;
+    font-size: 150px;
+}
 /* @media screen and (max-width: 300px) {
     h1 {
       font-size: 7em;
@@ -159,3 +167,4 @@ h2 {
     margin-bottom: 60px;
     font-family: 'Courier New', Courier, monospace;
 }
+
