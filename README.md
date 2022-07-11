@@ -10,5 +10,3 @@ Referenced w3schools for assistance with nav bar and image responsiveness
 Referenced Stack Overflow with adjusting font size based on screen size, but couldn't quite get it right
 
 Footer now showing
-
-Found pinwheel image info on www.toptal.com
